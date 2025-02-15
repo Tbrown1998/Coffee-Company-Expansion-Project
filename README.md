@@ -1,6 +1,10 @@
 # Monday-Coffee-Company-Expansion
 
-![1](https://github.com/user-attachments/assets/f69efd59-c93d-4d1d-a1ea-330889a51c8e)
+![4i1dxc7poxq2hwix1nredzr9i1y4](https://github.com/user-attachments/assets/77d993de-3779-4971-abe9-cf41cfad3083)
+
+
+
+
 
 ## Project Overview
 **Project Title:** Monday Coffee Expansion 
