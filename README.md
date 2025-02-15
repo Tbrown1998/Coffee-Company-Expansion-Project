@@ -3,16 +3,13 @@
 ![4i1dxc7poxq2hwix1nredzr9i1y4](https://github.com/user-attachments/assets/77d993de-3779-4971-abe9-cf41cfad3083)
 
 
-
-
-
 ## Project Overview
 **Project Title:** Monday Coffee Expansion 
 
 The goal of this project is to analyze the sales data of Monday Coffee, a company that has been selling its products online since January 2023, and to recommend the top three major cities in India for opening new coffee shop locations based on consumer demand and sales performance.
 
 ## Tools Used
-- **Data Preparation** - Microsoft Excel
+- **Data Preparation & Loading** - Microsoft Excel
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL  
 - **Data Visualization:** Power BI (Future Work)
@@ -22,7 +19,7 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
 
   ## Project Objectives
 1. **Data Preparation & Cleaning** - Data understanding, exploration, data loading. Detect and eliminate records containing missing or null values to ensure data quality.  
-2. **SCHEMAS Setup** – Establish Schemas and populate using the provided data.  
+2. **Schemas Setup** – Establish Schemas and populate using the provided data.  
 3. **Key Business Insights** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
 4. **Business Findings and Reccommendations** – Provide Business recommendations using insights & trends gotten from the sales data.
 
@@ -35,12 +32,12 @@ The dataset contains different tables with different records for Monday Coffee, 
 
 ## Project Structure
 
-### 1. Data Preparation & Data Cleaning (Excel): 
+### 1. Data Preparation & Data Cleaning: 
 - Data understanding, exploration, data loading.
 - Check dataset structure using Column Headers & Data Types
 - Standardizing Data Formats
 
-### 2. SCHEMA Setup
+### 2. Schemas Setup
 - **Database Creation:** The project begins with setting up a database named `monday_coffee_db`.  
 - **Table Creation:** Create all neccesary table to store required data.
 
@@ -96,7 +93,11 @@ CREATE TABLE sales
 
 -- END of SCHEMAS
 ```
-### 3. Key Business Insights
+### 3. Insert data Into schemas
+- Import data and values into each created schema to populate table and allow querying the data
+- Import cleaned data from excel into schemas
+  
+### 4. Key Business Insights
 - MONDAY COFFEE DATA ANALYSIS & BUSINESS PROBLEMS SOLVING
 
 **Coffee Consumers Count:**
@@ -279,7 +280,7 @@ GROUP BY
     c.population
 ORDER BY revenue DESC;
 ```
-## 4. Business Recommendations
+## 5. Business Recommendations
 After analyzing the data, the recommended top three cities for new store openings are:
 	
 ### City 1: Pune
