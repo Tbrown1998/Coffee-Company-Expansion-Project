@@ -2,33 +2,35 @@
 
 ![4i1dxc7poxq2hwix1nredzr9i1y4](https://github.com/user-attachments/assets/77d993de-3779-4971-abe9-cf41cfad3083)
 
+# Project Overview
 
-## Project Overview
-**Project Title:** Monday Coffee Expansion 
+## Monday Coffee Expansion 🚀  
 
-The goal of this project is to analyze the sales data of Monday Coffee, a company that has been selling its products online since January 2023, and to recommend the top three major cities in India for opening new coffee shop locations based on consumer demand and sales performance.
+### **Objective**  
+Monday Coffee, an online coffee retailer since January 2023, is looking to expand its business by opening physical stores in India. This project analyzes historical sales data to identify the **top three cities** with the highest potential for expansion, based on consumer demand, revenue, and key market trends.
 
-## Technology Stack
-- **Data Preparation & Loading** - Microsoft Excel
-- **DBMS:** PostgreSQL 
-- **Query Language:** SQL
-- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions 
+### **Key Goals**  
+- **Data Cleaning & Preparation:** Process raw data to ensure accuracy and consistency.  
+- **Sales & Consumer Analysis:** Identify revenue trends, customer preferences, and market demand across different cities.  
+- **Market Potential Assessment:** Evaluate cities based on population, estimated coffee consumers, and average revenue per customer.  
+- **Business Recommendations:** Provide data-driven insights to guide store expansion decisions.
 
-## Data Source
-- Dataset was downloaded from [Maven Analytics](www.maven.com)
+### **Technology Stack**  
+- **Data Handling & Cleaning:** Microsoft Excel  
+- **Database Management:** PostgreSQL  
+- **Query Language:** SQL (DDL, DML, Aggregations, Joins, Subqueries, Window Functions)  
 
-## Project Objectives
-1. **Data Preparation & Cleaning** - Data understanding, exploration, data loading. Detect and eliminate records containing missing or null values to ensure data quality.  
-2. **Schemas Setup** – Establish Schemas and populate using the provided data.  
-3. **Key Business Insights** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
-4. **Business Findings and Reccommendations** – Provide Business recommendations using insights & trends gotten from the sales data.
+### **Data Source**  
+The dataset was sourced from **[Maven Analytics](https://www.maven.com/)** and contains information on:  
+- **Sales Transactions** – Records of all coffee sales.  
+- **Cities** – Information on potential and existing sales locations.  
+- **Customers** – Demographic and behavioral data of consumers.  
+- **Products** – Details on coffee types and pricing.  
 
-## Dataset Description
-The dataset contains different tables with different records for Monday Coffee, such as:  
-- **sales** – contains transaction-level data, including every sale the company has made.
-- **city** –  contains informations about cities. including cities the company currently sells in and prospective cities they want to expnad to.
-- **customers** – contains informations about every customer.  
-- **products** – contains informations about every product type the company currently offers.   
+### **Expected Outcomes**  
+By analyzing sales patterns and customer behaviors, this project aims to identify the most promising locations for expansion, helping Monday Coffee **maximize revenue, optimize store placement, and enhance customer experience.** ☕📊  
+
+---  
 
 ## Project Structure
 
@@ -281,27 +283,50 @@ GROUP BY
 ORDER BY revenue DESC;
 ```
 ## 5. Business Recommendations
-After analyzing the data, the recommended top three cities for new store openings are:
+Based on the in-depth analysis of Monday Coffee’s sales data, the following recommendations are proposed to support the company’s expansion strategy:
 	
-### City 1: Pune
-- Average rent per customer is very low.
-- Highest total revenue.
-- Average sales per customer is also high.
+### Strategic Store Expansion
 
-### City 2: Delhi
-- Highest estimated coffee consumers at 7.7 million.
-- Highest total number of customers, which is 68.
-- Average rent per customer is 330 (still under 500).
-	
-### City 3: Jaipur	
-- Highest number of customers, which is 69.
-- Average rent per customer is very low at 156.
-- Average sales per customer is better at 11.6k.
+- The top three recommended cities for new store openings are **Pune**, **Delhi**, and **Jaipur** due to their high sales potential, significant coffee-consuming population, and favorable rent-to-revenue ratios.
+
+- Pune has the highest total revenue, making it an ideal location for immediate expansion.
+
+- Delhi boasts the highest number of estimated coffee consumers (7.7 million) and total customers, indicating a strong potential customer base.
+- Jaipur offers a high number of unique customers with an exceptionally low average rent per customer, making it a cost-effective expansion opportunity.
+
+### Customer-Centric Product Offerings
+- Analyzing product trends indicates that certain coffee products perform better in specific cities. Monday Coffee should tailor its product offerings based on regional preferences to maximize sales.
+
+- Introducing location-based promotions and limited-time offers can further drive engagement and sales.
+
+### Marketing & Customer Engagement Strategies
+
+- Investing in digital marketing campaigns focused on Delhi, Pune, and Jaipur can help boost brand awareness before store openings.
+
+- Implementing loyalty programs and discounts for frequent buyers will encourage repeat purchases.
+
+- Leveraging data-driven insights to create personalized offers based on customer purchase history and preferences.
+
+### Optimizing Pricing & Rent Efficiency
+
+- The analysis of average sales per customer versus rent per customer shows that Jaipur and Pune provide optimal cost efficiency.
+
+- Ensuring that store locations in these cities maintain affordable rental costs while maximizing customer footfall will enhance profitability.
+
+### Seasonal & Growth-Based Sales Strategies
+
+- Monthly sales growth trends indicate periods of high and low sales. Planning promotional activities during peak seasons and implementing retention strategies during slower months can stabilize revenue streams.
+
+- Tracking sales growth and consumer behavior over time will help refine marketing and sales strategies for future store expansions.
 
 ---
 
 ## Conclusion
-This project demonstrates how SQL can be used to clean, analyze, and derive insights from retail sales data. The findings offer valuable business recommendations that can enhance marketing strategies, improve customer experience, and optimize sales performance.   
+Conclusion
+
+This project effectively demonstrates how SQL can be leveraged to extract valuable business insights from sales data, enabling data-driven decision-making. The analysis identifies high-potential cities for expansion based on key metrics such as revenue, customer count, estimated coffee consumers, and rent efficiency. By strategically expanding into Pune, Delhi, and Jaipur, Monday Coffee can capitalize on market demand, optimize operational costs, and enhance customer experience. With a continued focus on data-driven strategies, the company can scale its retail presence efficiently while maintaining profitability and customer satisfaction. Future analyses should incorporate additional factors such as competitor presence, operational logistics, and consumer preferences to refine expansion decisions further. This data-backed approach ensures that Monday Coffee maximizes its growth potential while delivering an exceptional coffee experience to its expanding customer base.
+
+   
 
 ---
 ## Technology Stack
