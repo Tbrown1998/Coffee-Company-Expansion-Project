@@ -14,10 +14,10 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
 - **Query Language:** SQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions 
 
-  ### Data Source
+## Data Source
 - Dataset was downloaded from [Maven Analytics](www.maven.com)
 
-  ## Project Objectives
+## Project Objectives
 1. **Data Preparation & Cleaning** - Data understanding, exploration, data loading. Detect and eliminate records containing missing or null values to ensure data quality.  
 2. **Schemas Setup** – Establish Schemas and populate using the provided data.  
 3. **Key Business Insights** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
@@ -302,6 +302,13 @@ After analyzing the data, the recommended top three cities for new store opening
 
 ## Conclusion
 This project demonstrates how SQL can be used to clean, analyze, and derive insights from retail sales data. The findings offer valuable business recommendations that can enhance marketing strategies, improve customer experience, and optimize sales performance.   
+
+---
+## Technology Stack
+- **Data Preparation & Loading** - Microsoft Excel
+- **DBMS:** PostgreSQL 
+- **Query Language:** SQL
+- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
 
 ---
 
