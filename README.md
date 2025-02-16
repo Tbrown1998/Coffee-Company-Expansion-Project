@@ -8,11 +8,11 @@
 
 The goal of this project is to analyze the sales data of Monday Coffee, a company that has been selling its products online since January 2023, and to recommend the top three major cities in India for opening new coffee shop locations based on consumer demand and sales performance.
 
-## Tools Used
+## Technology Stack
 - **Data Preparation & Loading** - Microsoft Excel
 - **DBMS:** PostgreSQL 
-- **Query Language:** SQL  
-- **Data Visualization:** Power BI (Future Work)
+- **Query Language:** SQL
+- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions 
 
   ### Data Source
 - Dataset was downloaded from [Maven Analytics](www.maven.com)
