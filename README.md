@@ -358,7 +358,7 @@ This project effectively demonstrates how SQL can be leveraged to extract valuab
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-
+- **Visualization:** Powerbi
 ---
 
 ## 📌 About Me
