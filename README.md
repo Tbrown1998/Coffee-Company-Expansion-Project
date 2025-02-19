@@ -1,12 +1,13 @@
 # Monday-Coffee-Company-Expansion
 
-![4i1dxc7poxq2hwix1nredzr9i1y4](https://github.com/user-attachments/assets/77d993de-3779-4971-abe9-cf41cfad3083)
+![erasebg-transformed](https://github.com/user-attachments/assets/a0019e86-921e-4b51-988f-3af7506cb878)
+
 
 # Project Overview
 
 ## Monday Coffee Expansion 🚀  
 
-### **Objective**  
+### **Project Objective**  
 Monday Coffee, an online coffee retailer since January 2023, is looking to expand its business by opening physical stores in India. This project analyzes historical sales data to identify the **top three cities** with the highest potential for expansion, based on consumer demand, revenue, and key market trends.
 
 ### **Key Goals**  
@@ -18,7 +19,8 @@ Monday Coffee, an online coffee retailer since January 2023, is looking to expan
 ### **Technology Stack**  
 - **Data Handling & Cleaning:** Microsoft Excel  
 - **Database Management:** PostgreSQL  
-- **Query Language:** SQL (DDL, DML, Aggregations, Joins, Subqueries, Window Functions)  
+- **Query Language:** SQL (DDL, DML, Aggregations, Joins, Subqueries, Window Functions)
+- **Visualization:** Powerbi
 
 ### **Data Source**  
 The dataset was sourced from **[Maven Analytics](https://www.maven.com/)** and contains information on:  
@@ -38,7 +40,7 @@ By analyzing sales patterns and customer behaviors, this project aims to identif
 - Data understanding, exploration, data loading.
 - Check dataset structure using Column Headers & Data Types
 - Standardizing Data Formats
-
+---
 ### 2. Schemas Setup
 - **Database Creation:** The project begins with setting up a database named `monday_coffee_db`.  
 - **Table Creation:** Create all neccesary table to store required data.
@@ -95,15 +97,14 @@ CREATE TABLE sales
 
 -- END of SCHEMAS
 ```
+---
 ### 3. Insert data Into schemas
 - Import data and values into each created schema to populate table and allow querying the data
 - Import cleaned data from excel into schemas
   
-### 4. Key Business Insights
-- MONDAY COFFEE DATA ANALYSIS & BUSINESS PROBLEMS SOLVING
-
-**Coffee Consumers Count:**
-How many people in each city are estimated to consume coffee, given that 25% of the population does?
+### 4. Key Business Insights (MONDAY COFFEE DATA ANALYSIS & BUSINESS PROBLEMS SOLVING)
+- 1. **Coffee Consumers Count:**
+  How many people in each city are estimated to consume coffee, given that 25% of the population does?
 ```sql
 SELECT city_name,
 	ROUND((population * 0.25)/1000000, 2) estimated_population_in_millions,
@@ -111,8 +112,12 @@ SELECT city_name,
 FROM city
 ORDER BY 2 DESC
 ```
+##### Sql Output:
+![Screenshot (20)](https://github.com/user-attachments/assets/3efd51c1-7b5f-4fce-a27a-f5ec9c49ad71)
+##### Powerbi:
+![Screenshot (19)](https://github.com/user-attachments/assets/8e98dd97-b42f-49a5-817f-3bae92639ae8)
 
-**Total Revenue from Coffee Sales:**
+- 2. **Total Revenue from Coffee Sales:**
 What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
 ```sql
 SELECT
@@ -130,7 +135,7 @@ WHERE
 GROUP BY c.city_name
 ORDER BY total_sales DESC;
  ```
-**Order Count for Each Product:**
+- 3. **Order Count for Each Product:**
 How many total order of each coffee product have been made?
 ```sql
 SELECT p.product_name,
@@ -142,7 +147,7 @@ GROUP BY 1
 ORDER BY total_orders DESC
 ```
 
-**Average Sales Amount per City:**
+- 4. **Average Sales Amount per City:**
 What is the average sales amount per customer in each city?
 ```sql
 SELECT c.city_name,
@@ -158,9 +163,11 @@ ON c.city_id = cus.city_id
 	ON s.product_id = p.product_id
 GROUP BY 1
 ORDER BY avg_price DESC
-```	
+```
+##### Sql Output:
+![Screenshot (21)](https://github.com/user-attachments/assets/1c83be6f-0e6d-49f8-a241-a2a0cc35656f)
 
-**City Population and Coffee Consumers:**
+- 5. **City Population and Coffee Consumers:**
 Provide a list of cities along with their populations and estimated coffee consumers (assume 25% of total population).
 ```sql
 SELECT c.city_name city_name,
@@ -172,7 +179,7 @@ ON c.city_id = cus.city_id
 GROUP BY city_name, estimated_coffee_consumers_millions
 	ORDER BY unique_customers DESC;
 ```
-**Top Selling Products by City:**
+- 6. **Top Selling Products by City:**
 What are the top 3 selling products in each city based on order volume?
 ```sql
 SELECT *
@@ -192,7 +199,7 @@ SELECT *
 		)
 WHERE product_rank BETWEEN 1 AND 3
 ```
-**Customer Segmentation by City:**
+- 7. **Customer Segmentation by City:**
 How many unique customers are there in each city who have purchased products with ID 1-14?
 ```sql
 SELECT c.city_name city,
@@ -208,7 +215,7 @@ WHERE s.product_id IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14)
 GROUP BY city
 ORDER BY customer_count DESC;
 ```
-**Average Sale vs Rent:**
+- 8. **Average Sale vs Rent:**
 Find each city and their average sale per customer and avg rent per customer
 ```sql
 SELECT 
@@ -226,7 +233,11 @@ JOIN products p
 GROUP BY c.city_name, c.estimated_rent
 ORDER BY avg_price DESC;
 ```
-**Monthly Sales Growth:**
+##### Sql Output:
+![Screenshot (25)](https://github.com/user-attachments/assets/93386e33-33b0-4374-a704-72d581ce95bd)
+
+
+- 9. **Monthly Sales Growth:**
 Sales growth rate: Calculate the percentage growth (or decline) in sales over different time periods (monthly)
 ```sql
 SELECT 
@@ -258,7 +269,7 @@ FROM (
     ) sub
 ) final;
 ```
-**Market Potential Analysis:**
+- 10. **Market Potential Analysis:**
 Identify top 3 city based on highest sales.
 ```sql
 SELECT 
@@ -282,7 +293,20 @@ GROUP BY
     c.population
 ORDER BY revenue DESC;
 ```
-## 5. Business Recommendations
+##### Sql Output:
+![Screenshot (26)](https://github.com/user-attachments/assets/e2a9b39a-605f-49b0-8cda-cfc2f3a9400e)
+
+---
+## 5. Visualizations
+#### Overview:
+![Screenshot (22)](https://github.com/user-attachments/assets/2bdcfd52-5521-4281-bf39-26ed24e84fb6)
+#### City Insights:
+![Screenshot (23)](https://github.com/user-attachments/assets/b391e92f-3a00-4dda-88d4-df3882642313)
+#### Recommendations:
+![Screenshot (24)](https://github.com/user-attachments/assets/93ebac97-58dd-46f2-91cb-2cd70531ffd2)
+
+---
+## 6. Business Recommendations
 Based on the in-depth analysis of Monday Coffee’s sales data, the following recommendations are proposed to support the company’s expansion strategy:
 	
 ### Strategic Store Expansion
