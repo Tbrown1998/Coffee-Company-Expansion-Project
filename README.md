@@ -1,6 +1,7 @@
 # Monday-Coffee-Company-Expansion
 
-![erasebg-transformed](https://github.com/user-attachments/assets/a0019e86-921e-4b51-988f-3af7506cb878)
+![istockphoto-1267682472-612x612 (1)](https://github.com/user-attachments/assets/2bd0a955-48e1-44fe-9f05-d2f31640f2a6)
+
 
 
 # Project Overview
@@ -297,13 +298,17 @@ ORDER BY revenue DESC;
 ![Screenshot (26)](https://github.com/user-attachments/assets/e2a9b39a-605f-49b0-8cda-cfc2f3a9400e)
 
 ---
-## 5. Visualizations
-#### Overview:
-![Screenshot (22)](https://github.com/user-attachments/assets/2bdcfd52-5521-4281-bf39-26ed24e84fb6)
+## 5. Project Reports & Visualizations:
+- **Sales Summary:** Overview of total sales, customer demographics, and category performance.  
+- **City Insights Analysis:** Insights into city-level performance with key insights on top cities by customers, order trends, market score, and rent-to-revenue ratio to identify high-performing and growth-potential locations. 
+- **Business Recommendations:** Strategic suggestions based on key analysis and findings aimed at improving business performance, efficiency, or profitability. 
+#### Dashboard Overview:
+![Screenshot (31)](https://github.com/user-attachments/assets/143c9910-1694-4393-b2f7-122e9e0ae630)
 #### City Insights:
-![Screenshot (23)](https://github.com/user-attachments/assets/b391e92f-3a00-4dda-88d4-df3882642313)
+![Screenshot (32)](https://github.com/user-attachments/assets/1a6fab19-d987-435b-9629-f68b85e15ac4)
+
 #### Recommendations:
-![Screenshot (24)](https://github.com/user-attachments/assets/93ebac97-58dd-46f2-91cb-2cd70531ffd2)
+![Screenshot (33)](https://github.com/user-attachments/assets/95f6556e-7624-4fda-a782-37dfbbfd8913)
 
 ---
 ## 6. Business Recommendations
