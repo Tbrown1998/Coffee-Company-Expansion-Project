@@ -1,23 +1,27 @@
 # Monday-Coffee-Company-Expansion
 
-![istockphoto-1267682472-612x612 (1)](https://github.com/user-attachments/assets/2bd0a955-48e1-44fe-9f05-d2f31640f2a6)
-
+![Screenshot (31)](https://github.com/user-attachments/assets/143c9910-1694-4393-b2f7-122e9e0ae630)
 
 
 # Project Overview
 
 ## Monday Coffee Expansion 🚀  
 
-### **Project Objective**  
+### 📌 Project Objective and Business Problem
 Monday Coffee, an online coffee retailer since January 2023, is looking to expand its business by opening physical stores in India. This project analyzes historical sales data to identify the **top three cities** with the highest potential for expansion, based on consumer demand, revenue, and key market trends.
 
-### **Key Goals**  
+### 🎯 Key Goals
 - **Data Cleaning & Preparation:** Process raw data to ensure accuracy and consistency.  
 - **Sales & Consumer Analysis:** Identify revenue trends, customer preferences, and market demand across different cities.  
 - **Market Potential Assessment:** Evaluate cities based on population, estimated coffee consumers, and average revenue per customer.  
 - **Business Recommendations:** Provide data-driven insights to guide store expansion decisions.
 
-### **Technology Stack**  
+### ☕📊 Expected Outcomes 
+By analyzing sales patterns and customer behaviors, this project aims to identify the most promising locations for expansion, helping Monday Coffee **maximize revenue, optimize store placement, and enhance customer experience.**  
+
+---
+
+### 🛠️ Technology Stack 
 - **Data Handling & Cleaning:** Microsoft Excel  
 - **Database Management:** PostgreSQL  
 - **Query Language:** SQL (DDL, DML, Aggregations, Joins, Subqueries, Window Functions)
@@ -28,10 +32,7 @@ The dataset was sourced from **[Maven Analytics](https://www.maven.com/)** and c
 - **Sales Transactions** – Records of all coffee sales.  
 - **Cities** – Information on potential and existing sales locations.  
 - **Customers** – Demographic and behavioral data of consumers.  
-- **Products** – Details on coffee types and pricing.  
-
-### **Expected Outcomes**  
-By analyzing sales patterns and customer behaviors, this project aims to identify the most promising locations for expansion, helping Monday Coffee **maximize revenue, optimize store placement, and enhance customer experience.** ☕📊  
+- **Products** – Details on coffee types and pricing.
 
 ---  
 
