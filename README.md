@@ -352,7 +352,6 @@ Based on the in-depth analysis of Monday Coffee’s sales data, the following re
 ---
 
 ## Conclusion
-Conclusion
 
 This project effectively demonstrates how SQL can be leveraged to extract valuable business insights from sales data, enabling data-driven decision-making. The analysis identifies high-potential cities for expansion based on key metrics such as revenue, customer count, estimated coffee consumers, and rent efficiency. By strategically expanding into Pune, Delhi, and Jaipur, Monday Coffee can capitalize on market demand, optimize operational costs, and enhance customer experience. With a continued focus on data-driven strategies, the company can scale its retail presence efficiently while maintaining profitability and customer satisfaction. Future analyses should incorporate additional factors such as competitor presence, operational logistics, and consumer preferences to refine expansion decisions further. This data-backed approach ensures that Monday Coffee maximizes its growth potential while delivering an exceptional coffee experience to its expanding customer base.
 
