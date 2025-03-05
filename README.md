@@ -311,6 +311,9 @@ ORDER BY revenue DESC;
 #### Recommendations:
 ![Screenshot (33)](https://github.com/user-attachments/assets/95f6556e-7624-4fda-a782-37dfbbfd8913)
 
+## 🔗 Power BI Dashboard Link
+[View the Interactive Retail Sales Dashboard to view Key Visuals](https://app.powerbi.com/reportEmbed?reportId=2dd5966c-a761-4b44-8a47-56081379b725&autoAuth=true&ctid=3af45fec-8c0e-49be-8467-608b1fd05a35)
+
 ---
 ## 6. Business Recommendations
 Based on the in-depth analysis of Monday Coffee’s sales data, the following recommendations are proposed to support the company’s expansion strategy:
