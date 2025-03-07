@@ -303,16 +303,16 @@ ORDER BY revenue DESC;
 - **Sales Summary:** Overview of total sales, customer demographics, and category performance.  
 - **City Insights Analysis:** Insights into city-level performance with key insights on top cities by customers, order trends, market score, and rent-to-revenue ratio to identify high-performing and growth-potential locations. 
 - **Business Recommendations:** Strategic suggestions based on key analysis and findings aimed at improving business performance, efficiency, or profitability. 
-#### Dashboard Overview:
+### Dashboard Overview:
 ![Screenshot (31)](https://github.com/user-attachments/assets/143c9910-1694-4393-b2f7-122e9e0ae630)
-#### City Insights:
+### City Insights Page:
 ![Screenshot (32)](https://github.com/user-attachments/assets/1a6fab19-d987-435b-9629-f68b85e15ac4)
 
-#### Recommendations:
+### Recommendations Page:
 ![Screenshot (33)](https://github.com/user-attachments/assets/95f6556e-7624-4fda-a782-37dfbbfd8913)
 
 ## 🔗 Power BI Dashboard Link
-[View the Interactive Retail Sales Dashboard to view Key Visuals](https://app.powerbi.com/reportEmbed?reportId=2dd5966c-a761-4b44-8a47-56081379b725&autoAuth=true&ctid=3af45fec-8c0e-49be-8467-608b1fd05a35)
+Click To View [View the Interactive Retail Sales Dashboard to view Key Visuals](https://app.powerbi.com/reportEmbed?reportId=2dd5966c-a761-4b44-8a47-56081379b725&autoAuth=true&ctid=3af45fec-8c0e-49be-8467-608b1fd05a35)
 
 ---
 ## 6. Business Recommendations
@@ -375,17 +375,11 @@ Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst skilled in SQL, Power BI, and Ex
 - **🔹 Key Skills:** Data Analysis | SQL Queries | Power BI Dashboards | Data Cleaning | Reporting
 - **🔹 Passionate About:** Data storytelling, problem-solving, and continuous learning
 
-- **📫 Let's connect!**
-- 🔗 [Linkedin](www.linkedin.com/in/oluwatosin-amosu-722b88141) | 🌐 [Portfolio](https://github.com/Tbrown1998?tab=repositories) | 📩 oluwabolaji60@gmail.com
+#### 🚀 **Always learning and improving—driven by curiosity and a passion for analytics.**  
 
-
-
-
-
-
-
-
-
-
-
-
+### 📫 **Let’s connect!**  
+- 📩 oluwabolaji60@gmail.com
+- 🔗 : [LinkedIn](https://www.linkedin.com/in/oluwatosin-amosu-722b88141)
+- 🌐 : [My Portfolio](https://www.datascienceportfol.io/oluwabolaji60) 
+- 𝕏 : [Twitter/X](https://x.com/thee_oluwatosin?s=21&t=EqoeQVdQd038wlSUzAtQzw)
+- 🔗 : [Medium](https://medium.com/@oluwabolaji60)
