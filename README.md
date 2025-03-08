@@ -5,7 +5,7 @@
 
 # Project Overview
 
-## Monday Coffee Expansion 🚀  
+## Monday Coffee Expansion 🚀   
 
 ### 📌 Project Objective and Business Problem
 Monday Coffee, an online coffee retailer since January 2023, is looking to expand its business by opening physical stores in India. This project analyzes historical sales data to identify the **top three cities** with the highest potential for expansion, based on consumer demand, revenue, and key market trends.
