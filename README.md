@@ -1,4 +1,4 @@
-# Monday-Coffee-Company-Expansion
+# Online Coffee Company Expansion Project: A Data-Driven Approach to Strategic Growth
 
 ![Screenshot (31)](https://github.com/user-attachments/assets/143c9910-1694-4393-b2f7-122e9e0ae630)
 
