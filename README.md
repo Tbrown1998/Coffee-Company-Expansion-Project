@@ -37,6 +37,18 @@ The dataset was sourced from **[Maven Analytics](https://www.maven.com/)** and c
 - **Customers** – Demographic and behavioral data of consumers.  
 - **Products** – Details on coffee types and pricing.
 
+---
+
+## Data Processing Pipeline
+
+```mermaid
+graph TD
+    A[Raw Data] --> B[SQL Database]
+    B --> C[Data Cleaning]
+    C --> D[Analytical Queries]
+    D --> E[Visualization]
+    E --> F[Key Insights & Findings]
+```
 ---  
 
 ## Project Structure
