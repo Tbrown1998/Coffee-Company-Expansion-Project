@@ -313,6 +313,10 @@ ORDER BY revenue DESC;
 ##### Sql Output:
 ![Screenshot (26)](https://github.com/user-attachments/assets/e2a9b39a-605f-49b0-8cda-cfc2f3a9400e)
 
+--- 
+
+### Desktop Screenshots
+
 ![Screenshot (133)](https://github.com/user-attachments/assets/c3cc9709-9400-4859-9499-e9167695c609)
 
 ![Screenshot (134)](https://github.com/user-attachments/assets/175a1021-b144-4b7f-8421-a2e8278b5075)
