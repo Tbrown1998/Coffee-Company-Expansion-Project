@@ -315,7 +315,7 @@ ORDER BY revenue DESC;
 
 --- 
 
-### Desktop Screenshots
+## Desktop Screenshots
 
 ![Screenshot (133)](https://github.com/user-attachments/assets/c3cc9709-9400-4859-9499-e9167695c609)
 
